@@ -13,7 +13,7 @@ jobs:
   test:
     working_directory: ~/openfisca-brestmetropole
     docker:
-      - image: python:3.6.7
+      - image: python:3.7
     steps:
       - checkout
       - *upgrade_pip
